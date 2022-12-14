@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* edit del body*/
+
+html {
+    height: 100vh;
+}
+body{
+   background: rgb(34, 109, 195);
+   background: linear-gradient(0deg, rgb(38, 112, 223) 0%, rgba(238,252,255,1) 100%);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h3{
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    font-size: 20px;
+    width: 50px;
+    max-width: 50px;
+    margin-left: 15px;
+
+}
+
+/* edit del formulario*/
+
+.formulario{
+    background: rgb(19, 16, 77);
+    background: linear-gradient(352deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: auto;
+    width: 90%;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px black;
+    text-align: center;
+}
+.formulario h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.formulario p{
+    font-size: 1em;
+    color: black;
+}
+.formulario p a{
+    font-size: 1em;
+    color: blue;
+    text-decoration: none;
+}
+.formulario .contenedor{
+    padding: 30px;
+}
+.contenedor input{
+    width: 90%;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton{
+    width: 20%;
+    height: 30px;
+}
+.contenedor label{
+    font-size: 20px;
+    color: aliceblue;
+}
+.boton:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(0,36,1);
+    background: linear-gradient(90deg, rgba(0,36,1,1) 0%, rgba(9,121,39,1) 13%, rgba(0,212,255,1) 85%, rgba(0,212,255,1) 86%);
+}
+.contenedor input:hover{
+    background: rgb(222,231,232);
+background: radial-gradient(circle, rgba(222,231,232,1) 80%, rgba(83,70,252,1) 100%);
+}
+
+label.error{
+    color:antiquewhite;
+    margin-left: 15px;
+    text-decoration:underline solid red;
+}
+input.error{
+    border-style:dashed ;
+    border-color: red;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloR.css">
+    <link rel="stylesheet" href="../index.html">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--redireccionamiento a inicio-->
+
+    <a href="../index.html"><img src="../multimedia/img/casa-silueta-negra-sin-puerta.png" alt="" width="5%" height="5%"></a>
+
+    <!--formulario-->
+    
+    <form action="" method="post" class="formulario">
+        <h2>Inicia Sesion</h2>
+        <p>Aun no tienes cuenta? <a href="#" onclick="Inicia()">Inicia Ahora</a></p>
+        <div class="contenedor">
+            <div>
+                <label for="name">nombre</label>
+                <input type="text" id="name" name="nombre" placeholder=" ingrese nombre " autocomplete="off">
+            </div>
+        </div>
+        <div class="contenedor">
+            <div>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder=" ingrese correo ">
+            </div>
+        </div>
+        <div class="contenedor">
+            <div>
+                <label for="password">contraseña</label>
+                <input type="password" id="password" name="password" placeholder=" ingrese contraseña " autocomplete="off">
+            </div>
+        </div>
+        <input onclick="Entrar()" type="submit" name="submit" value="Entrar" class="boton">
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="../js/programacionR.js"></script>
+</body>
+</html>
