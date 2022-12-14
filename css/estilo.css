@@ -50,6 +50,9 @@ p{
     float: left;
     width: 24%;
 }
+li{
+    padding: 0px 30px;
+}
 .item a{
     text-emphasis-color:black;
     padding: 1px 1px;
@@ -64,6 +67,9 @@ p{
    color: white;
 }
 
+a:visited{
+    color: #bde0fe;
+}
 
 /* pie de pagina*/
 
