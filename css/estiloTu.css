@@ -162,3 +162,7 @@ hr{
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
 }
+
+li{
+    padding: 0px 30px;
+}
